@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Adventure</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu__gradient"></div>
+      <div class="wrapper">
+        <div class="mobile-menu__container">
+          <button class="mobile-menu__close-button js-close-menu">
+            <svg width="24" height="24">
+              <use href="./sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mobile-menu__nav__list">
+              <li><a class="header__nav__link">About</a></li>
+              <li><a class="header__nav__link">Service</a></li>
+              <li><a class="header__nav__link">Token Sale</a></li>
+              <li><a class="header__nav__link">FAQ’s</a></li>
+              <li><a class="header__nav__link">Team</a></li>
+              <li><a class="header__nav__link">Bloq</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-image"></div>
+    <div class="bg-gradient"></div>
+    <div class="bg-gradient2"></div>
+    <div class="bg-gradient3"></div>
+    <div class="bg-gradient4"></div>
+    <div class="bg-gradient5"></div>
+    <div class="bg-gradient6"></div>
+    <div class="wrapper">
+      <header class="header">
+        <a href="#" class="header__logo">
+          <svg class="header__logo">
+            <use href="./sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <button class="header__btn js-open-menu">
+          <svg class="header__burger" width="32" height="33">
+            <use href="./sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li><a class="header__nav__link">About</a></li>
+            <li><a class="header__nav__link">Service</a></li>
+            <li><a class="header__nav__link">Token Sale</a></li>
+            <li><a class="header__nav__link">FAQ’s</a></li>
+            <li><a class="header__nav__link">Team</a></li>
+            <li><a class="header__nav__link">Bloq</a></li>
+          </ul>
+        </nav>
+        <button class="header__main__button">Get in Touch</button>
+      </header>
+    </div>
+    <script src="./mobile-menu.js"></script>
+  </body>
+</html>
