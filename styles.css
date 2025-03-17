@@ -130,8 +130,13 @@ body {
   z-index: 4;
 }
 .header__logo {
-  width: 118px;
-  height: 36px;
+  width: 82px;
+  height: 16px;
+  z-index: 6;
+}
+.header__logo__link {
+  display: flex;
+  align-items: center;
   z-index: 6;
 }
 .header__btn {
@@ -220,8 +225,8 @@ body {
     padding: 0px;
   }
   .header__logo {
-    width: 183px;
-    height: 48px;
+    width: 136px;
+    height: 26px;
   }
   .header__nav__list {
     display: flex;
